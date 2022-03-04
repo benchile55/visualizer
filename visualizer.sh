@@ -8,7 +8,7 @@
 # Dependencies (and credits): 
 #   xdotool
 #   cava
-#   URxvt
+#   rxvt-unicode
 #   devilspie
 #
 # Usage:
@@ -17,7 +17,7 @@
 #
 # Description:
 #
-#   This script starts the cava music visualizer on a transparent backround through URxvt
+#   This script starts the cava music visualizer on a transparent backround through rxvt-unicode
 #   ('cause it's easy to customize and support transparent foreground and background). It
 #   then uses devilspie to strip it of his window decorations and rules, move it to the 
 #   right place and resize it.
@@ -31,7 +31,7 @@
 #=============
 # PARAMETERS TO SET
 #
-# Remember to don't leave spaces before and after the equal symbol
+# Remember avoid to leave spaces before and after the equal symbol
 
 # X value of the screen resolution
 Xscreen=1366
